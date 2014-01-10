@@ -1,0 +1,17 @@
+{% include header.ext %}
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="container">
+
+    {% include navbar.ext %}
+
+    {{ content }}
+
+    {% include footer.ext %}
+
+    {% include bsincludes.ext %}
+    </div> <!-- /container -->
+  </body>
+</html>
+

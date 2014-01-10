@@ -1,0 +1,10 @@
+      <div class="masthead">
+        <h3 class="text-muted">Unknown Horizons</h3>
+        <ul class="nav nav-justified">
+          <li {% if page.active == "home" %}class="active"{% endif %}><a href="#">Home</a></li>
+          <li><a href="#">Downloads</a></li>
+          <li><a href="#">Media</a></li>
+          <li><a href="#">Get Involved</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </div>
