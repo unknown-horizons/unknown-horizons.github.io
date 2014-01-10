@@ -2,7 +2,7 @@
         <h3 class="text-muted">Unknown Horizons</h3>
         <ul class="nav nav-justified">
           <li {% if page.active == "home" %}class="active"{% endif %}><a href="#">Home</a></li>
-          <li><a href="#">Downloads</a></li>
+          <li {% if page.active == "download" %}class="active"{% endif %}><a href="/download.html">Downloads</a></li>
           <li><a href="#">Media</a></li>
           <li><a href="#">Get Involved</a></li>
           <li><a href="#">About</a></li>

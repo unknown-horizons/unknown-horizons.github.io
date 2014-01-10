@@ -10,6 +10,7 @@
     <title>{{ page.title }}</title>
 
     <link rel="shortcut icon" href="/assets/ico/favicon.ico">
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
 
     <!-- Bootstrap core CSS -->
     <link href="/assets/css/bootstrap.css" rel="stylesheet">
