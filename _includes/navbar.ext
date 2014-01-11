@@ -7,6 +7,7 @@
               <li {% if page.active == "home" %}class="active"{% endif %}><a href="/index.html">Home</a></li>
               <li {% if page.active == "download" %}class="active"{% endif %}><a href="/download.html">Downloads</a></li>
               <li {% if page.active == "media" %}class="active"{% endif %}><a href="/media.html">Media</a></li>
+              <li {% if page.active == "support" %}class="active"{% endif %}><a href="/support.html">Support</a></li>
               <li><a href="#">Blog</a></li>
               <li><a href="#">About</a></li>
             </ul>
