@@ -2,4 +2,4 @@
 name = UnknownHorizons
 
 [servers.ghpages]
-target = ghpages://squiddy/unknown-horizons-website
+target = ghpages+https://squiddy/unknown-horizons-website
