@@ -1,2 +1,5 @@
 [project]
 name = UnknownHorizons
+
+[servers.ghpages]
+target = ghpages://squiddy/unknown-horizons-website
