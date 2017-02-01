@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+  <div class="jumbotron homepage-jumbotron">
+    <div class="container text-center">
+      <img class="logo" src="/static/logo.svg" />
+      <div class="text">
+        <p class="lead">
+          A 2D realtime strategy simulation with an emphasis on economy and city building. Expand
+          your small settlement to a strong and wealthy colony, collect taxes and supply your
+          inhabitants with valuable goods. Increase your power with a well balanced economy and with
+          strategic trade and diplomacy.
+        </p>
+        <a class="btn btn-success btn-lg">Download</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <h2>Get involved</h2>
+	<p>
+	  Interested in helping with the development of our game?
+	</p>
+	<a class="btn btn-success">View details</a>
+      </div>
+      <div class="col-lg-4">
+        <h2>Like / Follow us</h2>
+	<img src="{{ '/static/facebook.png'|url }}" />
+	<img src="{{ '/static/twitter.png'|url }}" />
+	<img src="{{ '/static/youtube.png'|url }}" />
+	<img src="{{ '/static/google_plus.png'|url }}" />
+      </div>
+      <div class="col-lg-4">
+        <h2>News</h2>
+      </div>
+    </div>
+  </div>
+{% endblock %}

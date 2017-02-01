@@ -1,0 +1,63 @@
+html {
+  background: #897758;
+}
+
+body {
+  font-family: 'EB Garamond', serif;
+  background-color: #deccae;
+}
+
+h1, h2, h3, h4 {
+  color: #4b2e0c;
+}
+
+footer {
+  background: #c6ae85;
+  margin-top: 4em;
+  padding: 1em;
+}
+
+.homepage-jumbotron {
+  background-color: rgba(66, 60, 50, 0.7);
+  position: relative;
+  margin-top: -20px; /* pull up to header */
+}
+
+.homepage-jumbotron::after {
+  content: '';
+  background: url(/static/homepage-jumbo.png);
+  background-size: cover;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.homepage-jumbotron > .container {
+  position: relative;
+  min-height: 250px;
+  z-index: 2;
+}
+
+.homepage-jumbotron .logo {
+  max-height: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.homepage-jumbotron .text {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #deccae;
+  z-index: 2;
+  width: 50%;
+  background-color: rgba(66, 60, 50, 0.7);
+  padding: 0.5em;
+  line-height: 1.2;
+  right: 0;
+}
