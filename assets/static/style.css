@@ -25,7 +25,7 @@ footer {
 
 .homepage-jumbotron::after {
   content: '';
-  background: url(/static/homepage-jumbo.png);
+  background: url(./homepage-jumbo.png);
   background-size: cover;
   opacity: 0.6;
   position: absolute;
