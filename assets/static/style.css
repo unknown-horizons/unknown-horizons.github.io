@@ -1,9 +1,11 @@
 html {
-  background: #897758;
+  background: #1c1918;
+  background-image: url(./mid_leather.png);
 }
 
 body {
   font-family: 'EB Garamond', serif;
+  font-size: 18px;
   background-color: #deccae;
 }
 
@@ -12,20 +14,59 @@ h1, h2, h3, h4 {
 }
 
 footer {
-  background: #c6ae85;
+  background: #151515;
+  background-image: url(./dark_leather.png);
+  color: #deccae;
   margin-top: 4em;
-  padding: 1em;
+  padding: 2em;
+  border-bottom: 3px dashed rgb(48, 43, 43);
+}
+
+hr {
+  height: 20px;
+  background-image: url(./hr.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 0;
+}
+
+.homepage-main-points h2 {
+  text-align: center;
+}
+
+.homepage-main-points h2::after {
+  content: " ";
+  height: 20px;
+  background-image: url(./hr.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  margin-top: 10px;
+}
+
+.open-source {
+  background: #e8dbc5;
+  margin-bottom: 1em;
+}
+
+footer .fa {
+  font-size: 32px;
+  margin: 0 0.3em;
+}
+
+footer .copyright {
+  margin-top: 1em;
 }
 
 .homepage-jumbotron {
   background-color: rgba(66, 60, 50, 0.7);
   position: relative;
   margin-top: -20px; /* pull up to header */
+  margin-bottom: 0;
 }
 
 .homepage-jumbotron::after {
   content: '';
-  background: url(./homepage-jumbo.png);
   background-size: cover;
   opacity: 0.6;
   position: absolute;
@@ -43,7 +84,7 @@ footer {
 }
 
 .homepage-jumbotron .logo {
-  max-height: 150px;
+  max-height: 200px;
   position: absolute;
   top: 0;
   left: 0;
