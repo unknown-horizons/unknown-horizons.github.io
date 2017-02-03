@@ -2,7 +2,11 @@
 {% from "macros/blog.html" import render_blog_post %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
-  {{ render_blog_post(this) }}
+  <div class="container">
+    {{ render_blog_post(this) }}
 
-  <div class="comments">{{ render_disqus_comments() }}</div>
+    <hr />
+  
+    <div class="comments">{{ render_disqus_comments() }}</div>
+  </div>
 {% endblock %}
