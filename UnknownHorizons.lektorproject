@@ -3,3 +3,6 @@ name = UnknownHorizons
 
 [servers.ghpages]
 target = ghpages+https://squiddy/unknown-horizons-website
+
+[packages]
+lektor-disqus-comments = 0.2
