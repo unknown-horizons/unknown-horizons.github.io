@@ -63,12 +63,14 @@ footer .copyright {
   position: relative;
   margin-top: -20px; /* pull up to header */
   margin-bottom: 0;
+  overflow: hidden;
 }
 
 .homepage-jumbotron::after {
   content: '';
+  background: url(./homepage-background.jpg);
   background-size: cover;
-  opacity: 0.6;
+  opacity: 0.5;
   position: absolute;
   top: 0;
   left: 0;
@@ -86,8 +88,16 @@ footer .copyright {
 .homepage-jumbotron .logo {
   max-height: 200px;
   position: absolute;
-  top: 0;
+  top: -35px;
   left: 0;
+  z-index: 200;
+}
+
+.homepage-jumbotron .screenshot {
+  position: absolute;
+  left: 10px;
+  z-index: 1;
+  top: -130px;
 }
 
 .homepage-jumbotron .text {
@@ -101,4 +111,21 @@ footer .copyright {
   padding: 0.5em;
   line-height: 1.2;
   right: 0;
+}
+
+.navbar-default {
+  background-color: #422d04;
+  border-color: #9a7a54;
+}
+
+.navbar-default .navbar-brand {
+    color: #a88248;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #e1deda;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #a88248;
 }
