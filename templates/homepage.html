@@ -43,9 +43,14 @@
         </p>
       </div>
       <div class="col-lg-4">
+        {% set latest = site.query('/blog').first() %}
+
         <h2>News</h2>
         <p>
-         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis augue vel arcu scelerisque pellentesque. Mauris et tincidunt justo. Suspendisse lobortis dolor sit amet mauris sodales, in suscipit quam porttitor.
+          {{ latest.body|striptags()|truncate(300) }}
+        </p>
+        <p>
+          <a href="{{ latest.path }}">Read more</a>
         </p>
       </div>
     </div>

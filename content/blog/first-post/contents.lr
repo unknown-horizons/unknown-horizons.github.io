@@ -1,4 +1,4 @@
-title: Hello Website
+title: Release of Version 2017.1
 ---
 pub_date: 2017-02-01
 ---
@@ -6,4 +6,21 @@ author: Developers
 ---
 body:
 
-This is an example blog post.  Not much here but that's not the point :)
+Today we'd like to announce the release of the new version of Unknown Horizons! Much time went by since the last version and we are sorry for that. The new version 2017.1 offers many new things like: new graphics, new sounds, new buildings as well as bug fixes and new translations.
+
+Unfortunately there is also bad new for the multiplayer mode as we don't know, if it works or not.
+
+We are also looking for new team members. We need:
+
+- SFX and GFX artists
+- Python developers (for version 2 and 3)
+- Web designers
+- And also translators
+
+You can find the status of the translation here
+
+You can reach us in the IRC channel #unknown-horizons in freenode or for those, who speak German: #unknown-horizons-de
+
+Thank you for your loyalty and have much fun with the game! :-)
+
+Your Unknown Horizons Team
