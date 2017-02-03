@@ -1,7 +1,44 @@
-title: About this Website
+title: The idea of Unknown Horizons
 ---
 body:
 
-This is a website that was made with the Lektor quickstart.
+Our intention is to create an open source real-time economy simulation game with strategy elements in an isometric 2D engine.
 
-And it does not contain a lot of information.
+Unknown Horizons is based upon the Flexible Isometric Free Engine (or in short: [FIFE](http://fifengine.net/)). We work closely with the FIFE developers to integrate new features we developed for Unknown Horizons, but could be also useful for other games as well.
+
+We are trying to create this game in our free time and just for fun.
+
+### Game play
+
+You start somewhere amidst an archipelago with nothing but a single ship and a handful of resources. Those need to suffice for you to found a rudimentary settlement.
+
+Soon, the first sailors will settle down  in your city and demand a living. Can you manage the short resources well enough to have your city grow steadily?
+Your inhabitants will see various different increments on their way to wealthy tradesmen  and each increment will bring up new demands and desires of your people. Take care about their needs, taxes are a linchpin of sucess in Unknown Horizons.
+
+Sooner or later you will have established a bright and big town. Other settlers in this new world will accompany and observe your progress. Now it is up to you to live in peace or maraud the peaceful. Will you end up as arbiter or tyrant? Decide with sageness and the tales to be told about you will never end.
+
+### Features
+
+* **Urban development**
+
+   Build a blooming metropolis from scratch with residential areas, industrial estates, service trade and lots of sights.
+
+* **Commodities managment**
+
+   Organize your resources to feed, extend and defend your growing city.
+
+* **Diplomacy**
+
+   Deal with other players to schedule conditions of trade agreements and non-aggression pacts.
+
+* **Trade**
+
+   Exchange stock with other players, free traders and local settlements to ensure your stores can keep reserves for worse times.
+
+* **Strategy**
+
+   Painfully trouble your enemies with strategic pinpricks and take advantage of all their little mistakes to solidify your position.
+
+* **Exploration**
+
+   Find new islands, trade routes and resource deposits to raise your city's wealth and extend your reach.
