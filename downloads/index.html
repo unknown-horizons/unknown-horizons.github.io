@@ -2,13 +2,13 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{% block title %}Welcome{% endblock %} — UnknownHorizons</title>
+<title>Downloads — UnknownHorizons</title>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB+Garamond">
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="{{ '/static/style.css'|url }}">
+<link rel="stylesheet" href="../static/style.css">
 
 <body>
   <nav class="navbar navbar-default navbar-static-top">
@@ -24,21 +24,26 @@
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          {% for href, title in [
-            ['/about', 'About'],
-            ['/media', 'Media'],
-            ['/downloads', 'Downloads'],
-            ['/blog', 'Blog']
-          ] %}
-            <li{% if this.is_child_of(href) %} class="active"{% endif
-              %}><a href="{{ href|url }}">{{ title }}</a></li>
-          {% endfor %}
+          
+            <li><a href="../about/">About</a></li>
+          
+            <li><a href="../media/">Media</a></li>
+          
+            <li class="active"><a href="../downloads/">Downloads</a></li>
+          
+            <li><a href="../blog/">Blog</a></li>
+          
         </ul>
       </div>
     </div>
   </nav>
  
-  {% block body %}{% endblock %}
+  
+  <div class="container">
+    <h2>Downloads</h2>
+    
+  </div>
+
 
   <footer>
     <div class="container">
