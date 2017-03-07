@@ -1,0 +1,21 @@
+_model: page
+---
+title: Support
+---
+body:
+
+Hello,
+if you have a problem with Unknown Horizons you are in the correct place to get help and solve your problem.
+
+
+![enter image description here](http://unknown-horizons.github.io/static/base_button_faq.png)Before continuing with further steps, please see if your problem is already answered in our [problem database (FAQ)](https://github.com/unknown-horizons/unknown-horizons/wiki/Problem-database)!
+
+
+If your problem is not answered in the problem database, you have a few options:
+
+![enter image description here](http://unknown-horizons.github.io/static/base_button_irc.png)Get in contact with the team directly using our [IRC Chat](http://www.unknown-horizons.org/irc/) (also webbased).
+
+![enter image description here](http://unknown-horizons.github.io/static/base_button_forums.png)Leave us a message on the [Forum](http://www.unknown-horizons.org/forum/), useful if no one is available on [IRC](http://www.unknown-horizons.org/support/irc/).
+
+![enter image description here](http://unknown-horizons.github.io/static/base_button_bugs.png)Leave a bugreport on our [Bug Tracker at Github](http://bugs.unknown-horizons.org/).
+

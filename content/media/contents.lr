@@ -1,3 +1,15 @@
 _model: page
 ---
 title: Media
+---
+body:
+
+New features: Loading screen progress bar, more friendly highlight colors, warehouse in Settlers tier, settlement icon in player color Click on a thumbnail to view a larger image. Click on the close button to close it.
+
+ ![enter image description here](http://unknown-horizons.github.io/static/loading_screen.png)
+
+![enter image description here](http://unknown-horizons.github.io/static/2013-04-04.18-13-09.917428.png)
+
+![enter image description here](http://unknown-horizons.github.io/static/2013-04-04.18-13-39.515762.png)
+
+![enter image description here](http://unknown-horizons.github.io/static/2013-04-04.18-14-10.036341.png)

@@ -129,3 +129,17 @@ footer .copyright {
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     color: #a88248;
 }
+
+.git {
+  margin-left: 90px;
+}
+
+.container .text-center a {
+  color:#deccae;
+  text-decoration: none;
+  background-color: none;
+}
+
+.lead {
+  color:#deccae;
+}

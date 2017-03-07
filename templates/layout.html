@@ -26,33 +26,41 @@
         <ul class="nav navbar-nav">
           {% for href, title in [
             ['/about', 'About'],
+            ['/blog', 'Blog'],
             ['/media', 'Media'],
             ['/downloads', 'Downloads'],
-            ['/blog', 'Blog']
+            ['/get-involved', 'Get involved'],
+            ['/support/', 'Support'],
+
+
           ] %}
             <li{% if this.is_child_of(href) %} class="active"{% endif
               %}><a href="{{ href|url }}">{{ title }}</a></li>
           {% endfor %}
+          <li><a href="https://github.com/unknown-horizons/unknown-horizons/wiki/Donation-History" class="donate">Donate</a></li>
         </ul>
       </div>
     </div>
   </nav>
- 
+
   {% block body %}{% endblock %}
 
   <footer>
-    <div class="container">
+    <div class="container text-center">
       <div class="text-center">
-        <i class="fa fa-facebook"></i>
-        <i class="fa fa-twitter"></i>
-        <i class="fa fa-youtube"></i>
-        <i class="fa fa-google-plus"></i>
+        <a href="http://www.facebook.com/pages/Unknown-Horizons/316760965546"><i class="fa fa-facebook"></i></a>
+        <a href="http://twitter.com/uhorizons"><i class="fa fa-twitter"></i></a>
+        <a href="http://youtube.com/unknownhorizonsgame"><i class="fa fa-youtube"></i></a>
+        <a href="https://plus.google.com/105947912016808272158?prsrc=3"><i class="fa fa-google-plus"></i></a>
       </div>
-      <p class="copyright text-center">
+      <p class="copyright">
         <small>
           &copy; Copyright 2017 by The Unknown Horizons Developers.
         </small>
       </p>
+      <a href="http://hosted.weblate.org/engage/uh/?utm_source=widget">
+<img src="http://hosted.weblate.org/widgets/uh-88x31-white.png" alt="Translation status">
+</a>
     </div>
   </footer>
 
