@@ -22,6 +22,14 @@ footer {
   border-bottom: 3px dashed rgb(48, 43, 43);
 }
 
+footer .social-media a {
+  color: #deccae;
+}
+
+footer .social-media a:hover {
+  color: #fff;
+}
+
 hr {
   height: 20px;
   background-image: url(./hr.png);
