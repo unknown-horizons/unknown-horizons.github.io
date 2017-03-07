@@ -3,6 +3,3 @@ name = UnknownHorizons
 
 [servers.ghpages]
 target = ghpages+https://unknown-horizons/unknown-horizons.github.io
-
-[packages]
-lektor-disqus-comments = 0.2
