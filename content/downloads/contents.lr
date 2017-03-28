@@ -1,3 +1,14 @@
 _model: page
 ---
 title: Downloads
+---
+body:
+
+Select your operating system:
+
+[![Windows Installer](http://unknown-horizons.github.io/static/buttons/large_button_windows.png) ](https://github.com/unknown-horizons/unknown-horizons/releases/download/2017.2/Unknown-Horizons-2017.2.147-Setup-VC14-x86.exe)  [![Linux](http://unknown-horizons.github.io/static/large_button_linux.png) ](https://github.com/unknown-horizons/unknown-horizons/releases)  [![MacOS Package](http://unknown-horizons.github.io/static/large_button_macos.png) ](https://github.com/unknown-horizons/unknown-horizons/releases/download/2014.1/Unknown-Horizons-2014.1.dmg)
+
+---
+_discoverable: yes
+---
+_hidden: no
