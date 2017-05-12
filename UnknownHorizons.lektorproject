@@ -2,4 +2,4 @@
 name = UnknownHorizons
 
 [servers.ghpages]
-target = ghpages+https://unknown-horizons/unknown-horizons.github.io
+target = ghpages+https://unknown-horizons/unknown-horizons.github.io?cname=unknown-horizons.org
