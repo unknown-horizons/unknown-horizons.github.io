@@ -1,5 +1,6 @@
 [project]
 name = UnknownHorizons
+url_style = absolute
 
 [servers.ghpages]
 target = ghpages+https://unknown-horizons/unknown-horizons.github.io?cname=unknown-horizons.org
