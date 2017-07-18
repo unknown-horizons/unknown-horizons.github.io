@@ -4,17 +4,17 @@ title: Get involved
 ---
 body:
 
-Thanks for your interest in our development and content department! Check out our "[Getting started](https://github.com/unknown-horizons/unknown-horizons/wiki/Getting-started)" article for general information on our project's development. If you are interested in contributing to Unknown Horizons, you should [join our IRC channel #unknown-horizons@irc.freenode.net](http://www.unknown-horizons.org/support/irc/) and have a chat with the community.
+Thanks for your interest in our development and content department! Check out our "[Getting started](https://github.com/unknown-horizons/unknown-horizons/wiki/Getting-started)" article for general information on our project's development. If you are interested in contributing to Unknown Horizons, you should [join our IRC channel #unknown-horizons@irc.freenode.net](http://webchat.freenode.net/?channels=unknown-horizons) and have a chat with the community.
 
 We've also assembled a list of open positions, i.e. areas to work on.
 
 ![Reporting Bugs](/static/buttons/base_button_bugs.png)**Reporting Bugs**
 
-To report bugs, either file a new issue at our [bug tracker](https://github.com/unknown-horizons/unknown-horizons/issues) or post on our [forums](http://www.unknown-horizons.org/forum/)!
+To report bugs, either file a new issue at our [bug tracker](https://github.com/unknown-horizons/unknown-horizons/issues) or post on our [forums](https://forum.unknown-horizons.org)!
 
 ![Making Suggestions](/static/buttons/base_button_forums.png)**Making Suggestions**
 
-Suggestions can be posted in our [Discussion Forum](http://www.unknown-horizons.org/forum/) or discussed with the community on [IRC](http://www.unknown-horizons.org/support/irc/).
+Suggestions can be posted in our [Discussion Forum](https://forum.unknown-horizons.org) or discussed with the community on [IRC](http://webchat.freenode.net/?channels=unknown-horizons).
 
 ![Updating Graphics](/static/buttons/base_button_gfx.png)**Updating Graphics**
 
@@ -22,7 +22,7 @@ We are always looking for new graphics! See the Information for Artists article 
 
 ![Improving Translations](/static/buttons/base_button_i18n.png)**Improving Translations**
 
-Want to see Unknown Horizons in your language or improve the current translation? Check out our [translation project](http://www.unknown-horizons.org/get-involved/weblate/) at Weblate!
+Want to see Unknown Horizons in your language or improve the current translation? Check out our [translation project](https://hosted.weblate.org/projects/uh/) at Weblate!
 
 ![Hacking the Code](/static/buttons/base_button_code.png)**Hacking the Code**
 
