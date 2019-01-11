@@ -1,0 +1,23 @@
+title: Version 2019.1 released
+---
+pub_date: 2019-01-12
+---
+author: Developers
+---
+body:
+
+We have released version 2019.1! This release brings a lot of bug fixes and improvements over the previous release.
+
+The most visible changes will probably be the ambient objects and the minimap:
+- The minimap is now finally isometric, and shown with the same rotation as the main view.
+- There are now rocks, mushrooms and treestumps on the islands to make it feel more natural. These do not affect gameplay.
+
+Internally a big change is that the code is now all in python3 instead of python2.
+
+We have fixed many bugs with the gui and the graphics.
+- Buildings are now drawn with the correct drawing order.
+
+You can reach us in the IRC channel #unknown-horizons in freenode or, for those who speak German: #unknown-horizons-de
+We also have discord. See https://discord.gg/VX6m2ZX
+
+The Unknown Horizons Team
