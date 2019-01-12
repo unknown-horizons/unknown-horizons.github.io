@@ -17,7 +17,11 @@ Internally a big change is that the code is now all in python3 instead of python
 We have fixed many bugs with the gui and the graphics.
 - Buildings are now drawn with the correct drawing order.
 
+Changelog: https://github.com/unknown-horizons/unknown-horizons/blob/master/doc/CHANGELOG.md
+
 You can reach us in the IRC channel #unknown-horizons in freenode or, for those who speak German: #unknown-horizons-de
 We also have discord. See https://discord.gg/VX6m2ZX
+
+We are searching Devs for the Godot Engine. We want to switch to Godot because the fifengine and the gui lin fifechan is not really active in development. And have bugs. If you are intressted on help us to switch to Godot join your discord server.
 
 The Unknown Horizons Team
