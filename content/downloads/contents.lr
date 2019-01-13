@@ -6,7 +6,8 @@ body:
 
 Select your operating system:
 
-[![Windows Installer](/static/buttons/large_button_windows.png) ](https://github.com/unknown-horizons/unknown-horizons/releases/download/2017.2/Unknown-Horizons-2017.2.158-Setup-VC14-x86.exe)  [![Linux](/static/buttons/large_button_linux.png) ](https://github.com/unknown-horizons/unknown-horizons/releases)  [![MacOS Package](/static/buttons/large_button_macos.png) ](https://github.com/unknown-horizons/unknown-horizons/releases/download/2014.1/Unknown-Horizons-2014.1.dmg)
+[![Windows Installer](/static/buttons/large_button_windows.png) ](https://github.com/unknown-horizons/unknown-horizons/releases/download/2019.1/Unknown-Horizons-2019.1.179-Setup-VC15-x86.exe)
+[![Linux](/static/buttons/large_button_linux.png) ](https://github.com/unknown-horizons/unknown-horizons/releases)
 
 ---
 _discoverable: yes
