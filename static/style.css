@@ -14,8 +14,7 @@ h1, h2, h3, h4 {
 }
 
 footer {
-  background: #151515;
-  background-image: url(./dark_leather.png);
+  background: #151515 url(./dark_leather.png);
   color: #deccae;
   margin-top: 4em;
   padding: 2em;
@@ -127,15 +126,22 @@ footer .copyright {
 }
 
 .navbar-default .navbar-brand {
-    color: #a88248;
+  color: #a88248;
+  text-shadow: 2px 1px black;
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #e1deda;
+  color: #e1deda;
+  text-shadow: 2px 1px black;
 }
 
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-    color: #a88248;
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+  color: #a88248;
+}
+
+.navbar-default .navbar-nav>li.active>a {
+  text-shadow: 0px 0px 1px black;
 }
 
 .git {
@@ -143,11 +149,15 @@ footer .copyright {
 }
 
 .container .text-center a {
-  color:#deccae;
+  color: #deccae;
   text-decoration: none;
-  background-color: none;
+  background-color: transparent;
 }
 
 .lead {
-  color:#deccae;
+  color: #deccae;
+}
+
+.meta {
+  border-bottom: 1px dotted #442A02;
 }
