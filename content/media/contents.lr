@@ -4,16 +4,17 @@ title: Media
 ---
 body:
 
-New Screenshot from UH2019.1 release
+### New screenshot from [2019.1 release](https://github.com/unknown-horizons/unknown-horizons/blob/master/doc/CHANGELOG.md):
 
-![UH 2019](/static/screenshots/2019-01-11.23-36-47.502394.png)
+<div style="width: 100%">
+    <a href="../static/screenshots/2019-01-11.23-36-47.502394.png"><img src="/static/screenshots/2019-01-11.23-36-47.502394.png" alt="UH 2019" width="75%"></a>
+</div>
 
-New features: Loading screen progress bar, more friendly highlight colors, warehouse in Settlers tier, settlement icon in player color Click on a thumbnail to view a larger image. Click on the close button to close it.
+### New features: loading screen progress bar, more friendly highlight colors, warehouse in settlers tier, settlement icon in player color.
 
-![Loading Screen](/static/screenshots/loading_screen.png)
-
-![UH 2014](/static/screenshots/2013-04-04.18-13-09.917428.png)
-
-![UH 2014](/static/screenshots/2013-04-04.18-13-39.515762.png)
-
-![UH 2014](/static/screenshots/2013-04-04.18-14-10.036341.png)
+<div style="width: 100%" style="float: right">
+    <a href="../static/screenshots/loading_screen.png"><img style="padding: 0 0 6px" src="/static/screenshots/loading_screen.png" alt="Loading Screen" width="25%"></a>
+    <a href="../static/screenshots/2013-04-04.18-13-09.917428.png"><img style="padding: 0 3px 6px" src="/static/screenshots/2013-04-04.18-13-09.917428.png" alt="UH 2014" width="25%"></a>
+    <a href="../static/screenshots/2013-04-04.18-13-39.515762.png"><img style="padding: 0 3px 6px" src="/static/screenshots/2013-04-04.18-13-39.515762.png" alt="UH 2014" width="25%"></a>
+    <a href="../static/screenshots/2013-04-04.18-14-10.036341.png"><img style="padding: 0 0 6px" src="/static/screenshots/2013-04-04.18-14-10.036341.png" alt="UH 2014" width="25%"></a>
+</div>

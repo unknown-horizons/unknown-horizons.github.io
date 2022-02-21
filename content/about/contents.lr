@@ -4,11 +4,13 @@ body:
 
 Our intention is to create an open source real-time economy simulation game with strategy elements in an isometric 2D engine.
 
-Unknown Horizons is based upon the Flexible Isometric Free Engine (or in short: [FIFE](http://fifengine.net/)). We work closely with the FIFE developers to integrate new features we developed for Unknown Horizons, but could be also useful for other games as well.
+Unknown Horizons is developed using the [Godot Engine](https://godotengine.org/).
+
+Until 2019, the game was based upon the Flexible Isometric Free Engine (or in short: [FIFE](http://fifengine.net/)). We worked closely with the FIFE developers to integrate new features we developed for Unknown Horizons, but could be also useful for other games as well. A playable version is available for [download](/downloads/). The source code is located [here](https://github.com/unknown-horizons/unknown-horizons).
 
 We are trying to create this game in our free time and just for fun.
 
-### Game play
+### Gameplay
 
 You start somewhere amidst an archipelago with nothing but a single ship and a handful of resources. Those need to suffice for you to found a rudimentary settlement.
 

@@ -4,21 +4,16 @@ title: Support
 ---
 body:
 
-Hello,
-if you have a problem with Unknown Horizons you are in the correct place to get help and solve your problem.
+Please note, that the [FIFE version](https://github.com/unknown-horizons/unknown-horizons) of Unknown Horizons is no longer supported. You can ask for help about crashes, but it is unlikely that we can do anything about it.
 
-The FIFE version of Unknown Horizons is no longer supported. You can try to ask help about crashes, but it is unlikely that we can do anything about it.
+We are working on a [Godot version](https://github.com/unknown-horizons/godot-port/), but that one isn't playable yet.
 
-We are working on a [Godot version](https://github.com/unknown-horizons/godot-port/), but this is not playable yet.
+![Discord](/static/buttons/base_button_discord.png) Get in contact with the team using our [Discord](https://discord.gg/VX6m2ZX) server. This is the main channel for contacting the team.
 
-![Discord](/static/Discord-Logo-Color.png) Get in contact with the team directly using our [Discord Server](https://discord.gg/VX6m2ZX). This is the main method of contacting the team.
+![IRC](/static/buttons/base_button_irc.png) Get in contact with the team using our IRC channel on `irc://irc.libera.chat/#unknown-horizons` ([Web IRC](https://kiwiirc.com/nextclient/irc.libera.chat/#unknown-horizons)).
 
-![IRC](/static/buttons/base_button_irc.png) Get in contact with the team directly using our IRC Channel on irc://irc.libera.chat/#unknown-horizons
+![Forum](/static/buttons/base_button_forums.png) Leave us a message on the [forum](https://forum.freegamedev.net/viewforum.php?f=100).
 
-![IRC](/static/buttons/base_button_irc.png) Get in contact with the team directly using our [Web IRC](https://kiwiirc.com/nextclient/irc.libera.chat/#unknown-horizons)
+![Bug tracker](/static/buttons/base_button_bugs.png) Leave a report at our bug tracker on GitHub for the new [Godot version](https://github.com/unknown-horizons/godot-port/issues) or the legacy [FIFE version](https://github.com/unknown-horizons/unknown-horizons/issues).
 
-![Forum](/static/buttons/base_button_forums.png) Leave us a message on the [Forum](https://forum.freegamedev.net/viewforum.php?f=100)
-
-![Bug Tracker](/static/buttons/base_button_bugs.png) Leave a bugreport on our [Bug Tracker at Github](https://github.com/unknown-horizons/unknown-horizons/issues). Keep in mind that this version of Unknown Horizons is not supported anymore (we don' have developers for this) so we probably won't be able to fix it.
-
-![FAQ](/static/buttons/base_button_faq.png) Before continuing with further steps, please see if your problem is already answered in our [FAQ](https://github.com/unknown-horizons/unknown-horizons/wiki/FAQ)
+![FAQ](/static/buttons/base_button_faq.png) For any issues regarding the legacy version, please verify first if your problem is not already answered in our [FAQ](https://github.com/unknown-horizons/unknown-horizons/wiki/FAQ).
