@@ -4,11 +4,22 @@ title: Downloads
 ---
 body:
 
-Select your operating system:
+### Current version ([Godot](https://github.com/unknown-horizons/godot-port/))
 
-[![Windows Installer](/static/buttons/large_button_windows.png) ](https://github.com/unknown-horizons/unknown-horizons/releases/download/2019.1/Unknown-Horizons-2019.1.214-Setup-VC15-x86.exe)
+No playable version available right now. Please check later!
 
-[![Linux](/static/buttons/large_button_linux.png) ](https://github.com/unknown-horizons/unknown-horizons/releases)
+### Legacy version ([FIFE](https://github.com/unknown-horizons/unknown-horizons))
+
+#### Version 2019.1 - Published 12 Jan 2019 / [Changelog](https://github.com/unknown-horizons/unknown-horizons/blob/master/doc/CHANGELOG.md)
+
+[![Windows installation files](/static/buttons/large_button_windows.png)](https://github.com/unknown-horizons/unknown-horizons/releases/download/2019.1/Unknown-Horizons-2019.1.214-Setup-VC15-x86.exe) [![Linux installation files](/static/buttons/large_button_linux.png)](https://github.com/unknown-horizons/unknown-horizons/archive/refs/tags/2019.1.tar.gz) <img style="filter: grayscale(100%);" src="/static/buttons/large_button_macos.png"></img>
+
+*Note: No MacOS version for the latest build available. The last compiled version is [2014.1](https://github.com/unknown-horizons/unknown-horizons/releases/tag/2014.1) from 31 Dec 2014. [[Download](https://github.com/unknown-horizons/unknown-horizons/releases/download/2014.1/Unknown-Horizons-2014.1.dmg)]*
+
+#### Older versions
+
+- [GitHub](https://github.com/unknown-horizons/unknown-horizons/releases)
+- [SourceForge](https://sourceforge.net/projects/unknownhorizons/files/Unknown%20Horizons/)
 
 ---
 _discoverable: yes
