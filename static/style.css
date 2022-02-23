@@ -13,6 +13,15 @@ h1, h2, h3, h4 {
   color: #4b2e0c;
 }
 
+img {
+  border-radius: 4px;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+
 footer {
   background: #151515 url(./dark_leather.png);
   color: #deccae;
@@ -135,9 +144,14 @@ footer .copyright {
   text-shadow: 2px 1px black;
 }
 
+a.navbar-brand:focus, 
+a.navbar-brand:hover {
+  color: hsl(36, 40%, 94%) !important;
+}
+
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
-  color: #a88248;
+  color: #b99660;
 }
 
 .navbar-default .navbar-nav>li.active>a {
@@ -160,4 +174,13 @@ footer .copyright {
 
 .meta {
   border-bottom: 1px dotted #442A02;
+}
+
+.social-media>a {
+  padding: 0 5px;
+  font-size: 2em;
+}
+
+code {
+  background-color: unset;
 }
