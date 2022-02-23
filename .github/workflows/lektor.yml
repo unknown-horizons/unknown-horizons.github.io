@@ -1,0 +1,40 @@
+name: "Lektor CI"
+
+on:
+  pull_request:
+    branches:
+    - '*'
+  push:
+    branches:
+    - 'source'
+    
+jobs:
+  deploy-lektor-website:
+    if: github.repository == 'unknown-horizons/unknown-horizons.github.io'
+    name: Deploy lektor website
+    runs-on: ubuntu-latest
+    env:
+      DEPLOY: ${{ github.event_name != 'pull_request' }}
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+
+      - name: Install Lektor
+        run: |
+          python -m pip install --upgrade pip setuptools
+          python -m pip install lektor
+        
+      - name: Build website source files
+        run: lektor build
+      
+      - name: Deploy website
+        if: env.DEPLOY == 'true'
+        env:
+          LEKTOR_DEPLOY_USERNAME: ${{ github.actor }}
+          LEKTOR_DEPLOY_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
+
+        # Suppress warning about 'main' branch name
+        # then invoke deployment
+        run: |
+          git config --global init.defaultBranch master
+          lektor deploy ghpages
