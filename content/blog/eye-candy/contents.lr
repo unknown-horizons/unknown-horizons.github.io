@@ -1,0 +1,29 @@
+title: Eye Candy!
+---
+pub_date: 2014-03-13
+---
+author: UnknownScribe
+---
+body:
+
+## Building Bliss
+This month Kilian implemented the code for a new building in the Settler's tier, the weaponsmith, allowing the player to manufacture swords from iron and charcoal! This building will eventually become the prerequisite to arm your troops for battle. UnknownScribe created the neat new graphics for this building.
+
+<img src="http://web.archive.org/web/20170407122929im_/http://up.unknown-horizons.org/f/?a=v&id=631&n=weaponsmith.png" alt="Weaponsmith graphics" width="200"/>
+
+UnknownScribe also added some wear and tear to the warehouse and barracks of the same tier as they seemed a bit too shiny for our liking!
+
+![Revised warehouse and barracks graphics](http://web.archive.org/web/20170407122929im_/http://up.unknown-horizons.org/f/?a=v&id=632&n=warehouse%2Bbarracks.png)
+
+### Translations Elation
+
+We hit the 50% completion mark for translations this month. A big thank you to everyone who has contributed to our translation progress. We still have a way to go until completion. So keep up the great work! Go to [weblate translations](https://hosted.weblate.org/projects/uh/) now!
+
+### Settlement-range Excitement
+
+Nihathrael was working on ChrisOelmueller's settlement-range code to make construction and destruction of the warehouse, storage tent and lookout tower work intuitively. They should now increase the range of the player's settlement when constructed, and decrease it again after destruction.
+
+Stay tuned for more updates!
+
+All the best,<br>
+Your Unknown Horizons Team

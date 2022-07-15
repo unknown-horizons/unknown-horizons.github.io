@@ -1,0 +1,22 @@
+title: Weblate replaces Pootle for managing translations
+---
+pub_date: 2013-05-06
+---
+author: Chris Oelmueller
+---
+body:
+
+Hey everyone,<br>
+few days ago we finally pulled the plug and decided to shut down pootle since apparently it didn't work for us and we invested way too much time compared to its benefits.
+
+As luck would have it, we met [Weblate](https://weblate.org/), our new home of translations! [Check it out!](https://hosted.weblate.org/projects/uh/)
+Weblate is a web platform not unlike Pootle, but doing some things differently, [developed](https://weblate.org/about/) by Michal Čihař, and the instance used for translating Unknown Horizons is even hosted by him. Much obliged, Michal, and thanks for taking care of the import as well!
+
+As a bonus, all user accounts were carried over during the import, so your old pootle password should still work on Weblate.
+
+Over the next days we'll try to get a proper workflow put together, you're welcome to just check out what Weblate does and ask us if anything weird is going on. :-)
+
+For now you can find Weblate using the direct link https://hosted.weblate.org/projects/uh/ or our old redirect https://pootle.unknown-horizons.org. We'll set up some new sub-domains for Weblate soon. We'll keep you posted.
+
+All the best,<br>
+*The Unknown Horizons Team*

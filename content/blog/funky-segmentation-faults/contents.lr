@@ -1,0 +1,22 @@
+title: Funky segmentation faults!
+---
+pub_date: 2014-08-08
+---
+author: stubb
+---
+body:
+
+Hey everyone,
+just a quick sign of life: Yes we are still here. Everything is moving slowly, but we are still alive.
+The following update is interesting only for **very tech savy users** that compile *FIFE* and *Unknown Horizons* themselves and do not use our prebuild packages.
+
+Maybe some of you noticed a lot of fun segmentation faults running Unknown Horizons from GIT together with the latest revision of the FIFE Engine recently. Helios2k was able to figure out that it is a problem with rebuilding FIFE.
+
+You need to clean up everything and rebuild FIFE afterwards. So pull the recent changes and run scons -c distclean.
+
+If thats doesn't help. Feel free to contact us.
+
+Stay tuned for more updates!
+
+All the best,<br>
+Your Unknown Horizons Team

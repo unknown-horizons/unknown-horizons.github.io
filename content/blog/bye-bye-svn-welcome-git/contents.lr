@@ -1,0 +1,26 @@
+title: Bye Bye SVN! Welcome Git!!
+---
+pub_date: 2010-08-29
+---
+author: GreyGhost
+---
+body:
+
+Finally we have completed the shift from SVN to Git.
+
+For those who are unaware of Git, it's a revision control system like SVN but with many advantages over SVN. For more information visit the [Official Website](https://git-scm.com/) and their [Wikipedia article](https://en.wikipedia.org/wiki/Git_%28software%29).
+
+The Unknown Horizons Git repository is hosted at GitHub. For more details head over to:
+
+ [Link to project at GitHub](https://github.com/unknown-horizons/): `https://github.com/unknown-horizons/`
+
+For more information on getting started with Git, head over to the github help pages here:
+
+ [GitHub Help Pages](https://help.github.com/): `https://help.github.com/`
+
+You will NOT need to create an account at GitHub or setup SSH with Git to simply clone the repository.
+
+For any further help or questions please visit us in our irc channel.
+
+Regards,<br>
+The Unknown Horizons Team.

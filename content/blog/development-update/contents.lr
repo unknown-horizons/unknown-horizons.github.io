@@ -1,0 +1,27 @@
+title: Development update
+---
+pub_date: 2012-03-04
+---
+author: totycro
+---
+body:
+
+Hello everyone!<br>
+This is a short status update for **Unknown Horizons**. We just finished our meeting and would like to keep you posted with our newest developments:
+
+* Awesome new scenario 'The Unknown" by **Kikody**. Thanks!
+* Three new maps: "MP-dev" (2 players) (gscai), "Full House" (3 players) and "Rouver" (4 to 6 players) (chrisoelmueller)
+* Two new logbook sections: "Statistics", where you see an overview of your score, your settlements and your fleet. "Chat" shows a history of all received game and chat messages. (chrisoelmueller)
+* The FIFE team started working on a fog of war feature which will greatly enhance the game experience.
+* Our translation template received a major update (about 20% more words). Check and complete your language [at our translation server](https://web.archive.org/web/20120524115526/http://pootle.unknown-horizons.org/)!
+* Our AI builds fire stations. (gscai)
+* Settlement resource overview bar configurations can now be saved. (totycro)
+* The game now shows a health bar over every unit who fought recently. (totycro)
+* Misc multiplayer fixes and indiviual game names to identify the game you want to join. (manuel, totycro)
+* It is possible to change the game speed in multiplayer games for all players. (nihathrael)
+* Some general performance improvements. (totycro)
+
+We're also polishing our application for this year's Google Summer of Code. If you're interested in the full meeting logs, you can browse them here.
+
+Stay tuned and have a nice week,<br>
+Your **Unknown Horizons Team**.

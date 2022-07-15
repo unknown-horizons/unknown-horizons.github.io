@@ -1,0 +1,41 @@
+title: Back on Track!
+---
+pub_date: 2014-02-19
+---
+author: Nihathrael
+---
+body:
+
+Hey everyone,
+we are back with some news on the Unknown Horizons development. Development has slowed down a bit in the previous weeks, which is the reason for the quiet time.
+
+### Weekly Dev-Day
+To get development speed going again, we have decided to have weekly development days every wednesday. This day is meant to bring everyone together and work on the project for a few hours as a team.
+
+Our first goal was getting all of our automated tests to pass again, which we achieved today. Next we will be ironing out bugs and crashes and then start implementing new features.
+
+If you are interested in taking part in the development feel free to join us at 20:00 UTC+1 in [#unknown-horizons on freenode](https://kiwiirc.com/nextclient/irc.libera.chat/#unknown-horizons). Everyone is welcome and there are interesting tasks for every kind of interest.
+
+<img src="http://web.archive.org/web/20160602200826im_/http://up.unknown-horizons.org/f/?a=v&id=597&n=delete_uh.png" alt="Nature is now transparent around deletion cursor" width="400">
+
+Nature is now transparent around deletion cursor
+The nature around the deletion cursor now transparent. Thanks to **Zappaman** for this feature!
+
+### Contributions
+Check out all the awesome contributions we received on Github in the past days and weeks:
+
+- [#1966](https://github.com/unknown-horizons/unknown-horizons/pull/1966) Transparent nature buildings around destroy tool (Zappaman)
+- [#2136](https://github.com/unknown-horizons/unknown-horizons/pull/2136) No more color confusion between SP and MP menu (pinkfloyda)
+- [#2153](https://github.com/unknown-horizons/unknown-horizons/pull/2246) Confirmation dialog for pressing Del with unit/building selected (Zappaman)
+- [#2225](https://github.com/unknown-horizons/unknown-horizons/pull/2225) Clear default text for player name and game name (RSouthee)
+- [#2229](https://github.com/unknown-horizons/unknown-horizons/pull/2229) Add the ability to set a default build menu style (Zappaman)
+- [#834-FIFE](https://github.com/fifengine/fifengine/pull/834) Make FIFE compile on MacOS 10.9 and also older versions
+
+Thanks a lot to all contributers, your work is very appreciated!
+
+Want to make Unknown Horizons the game **you** always wanted it to be? Check out our [Get Involved](https://github.com/unknown-horizons/unknown-horizons/wiki) page and get started! There is something exciting to be done for everyone.
+
+Stay tuned for more updates next week!
+
+All the best,
+Your Unknown Horizons Team

@@ -1,0 +1,22 @@
+title: Happy new year 2016
+---
+pub_date: 2016-01-02
+---
+author: stubb
+---
+body:
+
+Hi everyone,<br>
+we'd like to wish you all a happy new year 2016 and hope that you had some nice holidays!
+
+Some of you may have noticed already, that there are some new features ahead and shiny graphics produced. LinuxDonald joined the team & project management. He is currently working on the unit production. A small preview of the new graphics is visible below. These are some renderings of the new citizen mainsquare and warehouse made by janeex.
+
+![](http://web.archive.org/web/20161026013326im_/https://raw.githubusercontent.com/unknown-horizons/unknown-horizons/5aa4be3da4ae42c10511d534610b613a1c2ac484/content/gfx/buildings/citizens/mainsquare/as_mainsquare_stone0/idle/45/000.png)
+
+![](http://web.archive.org/web/20161026013326im_/https://raw.githubusercontent.com/unknown-horizons/unknown-horizons/b6d92f35afed9acde7a4cd39253fd5931a11f853/content/gfx/buildings/citizens/warehouse/as_warehouse_citizens0/idle/135/000.png)
+
+## Forums
+We also managed the transition from PhpBB2 to 3. So the forums are up again and providing login via Github credentials. If you have already an account for the forum and login via Github OAuth your existing account will be merged based on your e-mail address. Only the old theme has to be ported. Help is appreciated here, like everywhere else within the Unknown Horizons project. Feel free to [contact](https://www.unknown-horizons.org/get-involved/) us to get involved!
+
+All the best,<br>
+Your *Unknown Horizons Team*

@@ -1,0 +1,38 @@
+title: More Weblate details
+---
+pub_date: 2013-05-17
+---
+author: Chris Oelmueller
+---
+body:
+
+Heya!
+
+As promised, a more detailed blog about what's new with our recent [Weblate](https://hosted.weblate.org/projects/uh/) migration, what changed and what didn't. First of all I'd like to address a question raised on IRC: Your user data was compatible because both Pootle and Weblate [base their authentication on Django](https://web.archive.org/web/20131104131220/http://docs.weblate.org/en/latest/install.html#migrating-from-pootle). No plain-text credentials stored anywhere. The hashed+salted passwords in question were encrypted and only shared with me, nihathrael (old Pootle server admin) and Michal (new Weblate server admin).
+
+Weblate has a strong link to our git repository, and as such prepares commits for each "session" you take in translating anything. It collects those commits and pushes them to our main repository *automatically* whenever either new commits are pushed by developers or a translation reaches 100% for any language and subproject. This ensures that we always get up-to-date translations. Because everything is automated, there is no longer a need for our old language admins to manually trigger commits and pushes.
+
+As with our old Pootle server, you do not need to register an account to contribute. If you don't, you will only be able to suggest translations however. Registered accounts (including those migrated from old Pootle) can "save" translations (old "submit" in Pootle) and also review suggestions. In case you want to discuss something with other translation team members before committing: "suggest" also works as registered user.
+
+Some of the new features we want to highlight:
+
+* Translations are locked and unlocked automatically. This prevents others from accidentally overwriting your work.
+* Links to the origin of translation sources (for python and xml files): Click on the link(s) "Used in" and you see the relevant source code, often containing context hints.
+* Tab "Files": Here you can download .po files, translate them offline and upload the files again. Or test the [translations in-game directly from Weblate](https://github.com/unknown-horizons/unknown-horizons/wiki/Interface-translation) which got so much easier. In some cases you can see the changes even before they are pushed to our repository!
+* Notifications and subscriptions: You can subscribe to certain important events in your user profile if you check the project "Unknown Horizons" and some of the notifications below. If you prefer RSS, many individual pages on Weblate provide a small blue feed icon - just click on that and you're done :)
+* Tab "Recent changes": Review translations touched by other users since [...]. This handy feature lets you check whether recent changes conform to what you believe are best practices for your language and that specific subproject. New users may not always be aware of the Glossary, for instance. Fill in the date where you last browsed and see what changed since!
+* Tab "Source": Tell the developers something about the source string or ask for it to be changed. You can also subscribe to those comments in your profile (see above).
+
+The interface in Weblate changes depending on what you're doing currently, so there are different tabs around the bottom of the page if you currently work translating a string (glossary, similar translations, nearby strings, machine translation suggestions, ...), navigate a language in a subproject, navigate a subproject, and so on. There are lots of useful gems hidden and features available to ease translation - make sure to check them out!
+
+As promised we set up a new subdomain for our new translation server: [translate.unknown-horizons.org](https://web.archive.org/web/20131104131220/http://translate.unknown-horizons.org/). We also updated some old documentation on our website, wiki and repository which now link to Weblate instead of pootle. Everything trying to reach our old Pootle server is currently redirected to this page: [Engage](https://hosted.weblate.org/projects/uh/)
+
+Some issues still remain open for the moment:
+
+* We used to manage our glossaries as own translation project. Weblate does this differently and imports a glossary per language where anyone can add new items afterwards. We're not sure yet how to best approach a somewhat centralized suggestion of terminology items while still allowing you to add other items to your language's glossary. For now, all old terminology files were imported as glossary.
+* Weblate could support a so-called "hook" automatically creating a translated scenario from scenario translation files. We are currently testing this integration, and the goal in the end is to commit changes to scenarios right as they happen in the translations. Never again will we ship outdated scenarios because someone forgot to run weird scripts (as happened with our first release in 2013, sorry again!)
+
+That's it for now, ask a question on IRC or mail us if you'd like more information about anything Weblate!
+
+Have fun translating,<br>
+The Unknown Horizons Team

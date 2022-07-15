@@ -1,0 +1,16 @@
+title: Current downtimes and problems
+---
+pub_date: 2010-08-29
+---
+author: Nightraven
+---
+body:
+
+We are changing our server at the moment so short downtimes, deadlinks or other problems will likely occur.
+
+We apologize for that and wish you all fun at browsing our page :)
+
+<br>
+**Update:**
+
+As we have not yet moved our source code repository to git the current SVN url is: `http://svn.unknown-horizons.org/trunk`
