@@ -1,0 +1,37 @@
+title: Development update
+---
+pub_date: 2013-06-09
+---
+author: stubb
+---
+body:
+
+Hi,<br>
+as you probably already noticed, lots of things have happened regarding the hosting and administration of the different services we use. Luckily we had some time left to tweak some old code and create some exciting new features, improving the game experience.
+
+### GUI
+ThePawnBreak spent his spare time creating a settings widget to dynamically set up your favorite hotkeys and actions. It is now possible to set up to 2 different hotkeys for a provided action, like taking screenshots. Manual editing of your settings file is not necessary anymore, which makes the process very comfortable.
+
+![](https://web.archive.org/web/20130717131538im_/https://a248.e.akamai.net/camo.github.com/851a4ce8a7b7810e35c9c9d1d7987079174c13b2/687474703a2f2f7777772e756e6b6e6f776e2d686f72697a6f6e732e6f72672f75706c6f6164732f696d616765732f75682d72656c656173652d323031332e332f323031335f332d686f746b6579732d332e706e67)
+
+![](https://web.archive.org/web/20130717131538im_/https://a248.e.akamai.net/camo.github.com/f00673032e57e1353b76a8ec2c8db87c68611a49/687474703a2f2f7777772e756e6b6e6f776e2d686f72697a6f6e732e6f72672f75706c6f6164732f696d616765732f75682d72656c656173652d323031332e332f323031335f332d686f746b6579732d322e706e67)
+
+He also successfully tackled several problems with our scenario GUI and fixed a few other annoyances on the way. In particular, you now can confirm many menus using your Enter key where previously clicking on an OK button was required. Thanks for your great work again!
+
+As you probably noticed in the past the messages of the loading screen were static strings and English only. ChrisOelmueller spent some time to make them human-readable and translatable.
+
+![](https://web.archive.org/web/20130717131538im_/https://a248.e.akamai.net/camo.github.com/b88081c945d5c507cb101bf74028c4e75531e8c3/687474703a2f2f7777772e756e6b6e6f776e2d686f72697a6f6e732e6f72672f75706c6f6164732f696d616765732f75682d72656c656173652d323031332e332f323031335f332d6c6f616470726f67726573732d312e706e67)
+
+![](https://web.archive.org/web/20130717131538im_/https://a248.e.akamai.net/camo.github.com/6bec710b7f977b96a49b5d9397a052e06c626bd5/687474703a2f2f7777772e756e6b6e6f776e2d686f72697a6f6e732e6f72672f75706c6f6164732f696d616765732f75682d72656c656173652d323031332e332f323031335f332d6c6f616470726f67726573732d322e706e67)
+
+### Packages
+For our packagers out there: Unknown Horizons now uses `/usr/bin/env python2` as default hashbang. If your distribution or platform does not provide this, you may want to overwrite that change in your packages.
+More details: [PEP 394](https://www.python.org/dev/peps/pep-0394/)
+
+### Game Experience
+To provide a longer and more exciting game experience we started to add a new disaster called Black Death. It's the plague, a deadly infectious disease - but the infection can be cured, with herbs, by our doctor. Ships of the Free Trader and AI players avoid infected settlements to stop spreading the disease. The infection from settlements via ships or units in general is missing right now, but is a feature we will be implementing in the future. Some other tasks have to be finished before, like [#2079](https://github.com/unknown-horizons/unknown-horizons/issues/2079).
+
+We are also still working on our infrastructure. The next goal is nightly builds of the windows installer, maybe even one build per commit. More details will be shared in a followup blog post.
+
+All the best,<br>
+*The Unknown Horizons Team*

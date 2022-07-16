@@ -1,0 +1,28 @@
+title: Short Development Update
+---
+pub_date: 2012-03-11
+---
+author: stubb
+---
+body:
+
+Hi everyone!<br>
+This is a short status update for Unknown Horizons. We just finished our meeting and would like to keep you posted with our newest developments:
+
+* Increased range of the signal fire (totycro)
+* Only allow fire disasters on pioneer increment and above (totycro)
+* Logging can now be controlled via GUI as setting (totycro)
+* Removed all TooltipWidgets, tooltips for a regular widget are now set from the helptext attribute (totycro)
+* The logbook now allows displaying images and arbitrary content in general (chrisoelmueller)
+* Also converted The_Unknown and tutorial_en to new scenario-syntax, added images to the tutorial (chrisoelmueller)
+* We are working on a FrameLimit (FPS) setting (nihathrael)
+* A lot of bugfixing (everyone)
+
+We would like to thank all the players participating in the multiplayer gaming session yesterday, organized by wentam. It was a great opportunity to get feedback and bugreports. We're definitely planning to repeat this kind of event soon, check this blog for updates!
+
+Another important event was the game design meeting earlier this sunday. We discussed a system in which certain buildings have influence on the appeal of nearby environment tiles, which might be used as requirement to upgrade into later residential tiers. Another idea everybody agreed on was that we want to implement a kind of "main square extension" building. It has the same size as a regular tent/hut/house and provides the same services as the main square does, but needs to have a main square in range on its own to work. We received a lot of feedback about the large main square and hope that the extension helps you improve your settlement layout :-)
+
+If you're interested in the full meeting logs, you can browse them here. The list of accepted organizations for this year's Summer of Code will get published on March 16th. We're looking forward to the decision on whether we got accepted! Check our ideas page if you are interested in the possible projects this summer!
+
+Stay tuned and have a nice week,<br>
+Your **Unknown Horizons Team**.

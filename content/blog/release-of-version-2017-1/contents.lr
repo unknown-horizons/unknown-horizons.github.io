@@ -1,14 +1,14 @@
 title: Release of Version 2017.1
 ---
-pub_date: 2017-02-01
+pub_date: 2017-01-16
 ---
-author: Developers
+author: LinuxDonald
 ---
 body:
 
 Today we'd like to announce the release of the new version of Unknown Horizons! Much time went by since the last version and we are sorry for that. The new version 2017.1 offers many new things like: new graphics, new sounds, new buildings as well as bug fixes and new translations.
 
-Unfortunately there is also bad new for the multiplayer mode as we don't know, if it works or not.
+Unfortunately there is also bad news for the multiplayer mode as we don't know, if it works or not.
 
 We are also looking for new team members. We need:
 
@@ -17,10 +17,14 @@ We are also looking for new team members. We need:
 - Web designers
 - And also translators
 
-You can find the status of the translation here
+You can find the status of the translation [here](https://hosted.weblate.org/projects/uh/)
 
 You can reach us in the IRC channel #unknown-horizons in freenode or for those, who speak German: #unknown-horizons-de
 
 Thank you for your loyalty and have much fun with the game! :-)
 
 Your Unknown Horizons Team
+
+Download Links you can find [here](https://github.com/unknown-horizons/unknown-horizons/releases)
+
+Changelog [here](https://github.com/unknown-horizons/unknown-horizons/blob/master/doc/CHANGELOG.md)

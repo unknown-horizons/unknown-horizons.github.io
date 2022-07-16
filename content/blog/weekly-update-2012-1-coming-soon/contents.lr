@@ -1,0 +1,28 @@
+title: Weekly Update: 2012.1 coming soon
+---
+pub_date: 2012-03-19
+---
+author: Nihathrael
+---
+body:
+
+Hey everyone,<br>
+here's our weekly status update following our meeting.
+
+Best part first:<br>
+We are heading towards our **2012.1** release in the coming weeks. Current target: "in about 2 weeks"™. More information will follow soon!
+
+Now for the weekly updates:
+
+* Use small cogs animation - UnknownScribe
+* Better status icon placement - totycro
+* Fixed some occurences of the escape key not working - totycro
+* Improved resource configuration restore button, it now contains multiple features - totycro
+* Added bakery graphics - wentam
+* Parts of the content branch merged (wheat field, windmill, bakery, citizen house). - chrisoelmueller
+* New tutorial translation template. Help converting: [http://lists.unknown-horizons.org/pipermail/translate-uh/2012-March/000033.html](https://web.archive.org/web/20120524090923/http://lists.unknown-horizons.org/pipermail/translate-uh/2012-March/000033.html) - chrisoelmueller
+* Built an irc bot to help with multiplayer events - wentam
+* Tons of bugfixes - everyone
+
+All the best,<br>
+Your **Unknown Horizons** Team

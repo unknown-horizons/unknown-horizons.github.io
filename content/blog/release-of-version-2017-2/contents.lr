@@ -1,0 +1,26 @@
+title: Release of Version 2017.2
+---
+pub_date: 2017-02-08
+---
+author: LinuxDonald
+---
+body:
+
+Today we'd like to announce the release of the new version of Unknown Horizons!
+
+The new version 2017.2 offers small bug fixes, updated translations and works with FIFE version 0.4.1.
+
+We also updated the Windows Installer - It should work better now.
+
+Hopefully, the problems some of you experienced with the 2017.1 version are gone. Please contact us if it's otherwise.
+
+If you need help, you can reach us in the IRC channel #unknown-horizons in freenode or for those, who speak German: #unknown-horizons-de
+
+Or in the [Forum](http://web.archive.org/web/20170408123647/https://forum.unknown-horizons.org/)
+
+Your Unknown Horizons Team
+
+
+Download Links you can find [here](http://web.archive.org/web/20170408123647/https://github.com/unknown-horizons/unknown-horizons/releases)
+
+Changelog [here](http://web.archive.org/web/20170408123647/https://github.com/unknown-horizons/unknown-horizons/blob/master/doc/CHANGELOG.md)

@@ -1,0 +1,36 @@
+title: Unknown Horizons Release 2014.1
+---
+pub_date: 2014-12-31
+---
+author: stubb
+---
+body:
+
+Time for a new release: *Unknown Horizons 2014.1* has been tagged and packaged!
+
+New features in this release:
+
+* Only expand settlement range for certain buildings
+* Color overlays (if running with FIFE 0.3.6 or newer)
+* Armory producing weapons
+* Button to fill lumberjack range with trees
+* Fixed some bad bugs causing the game to crash completely
+* Lots of other improvements
+
+Our [changelog](https://github.com/unknown-horizons/unknown-horizons/blob/2014.1/doc/CHANGELOG.md) contains more details about new features, improvements and fixed bugs & crashes.
+
+<img src="http://web.archive.org/web/20170408075755im_/http://www.unknown-horizons.org/uploads/images/%20uh-release-2014.1/2013-11-23.23-24-48.750031.png" alt="Color overlay" width="500">
+
+Ships are identified by players color now!
+
+All in all, the new release **Unknown Horizons 2014.1** provides a more stable gaming experience with new content and a bit of eye candy added as well.
+As some of you may have noticed already, there are several big changes happening around our engine FIFE right now. As a result of this, some new features (like the color overlays spotlighted above) are only available after a new engine release, or if you're running a development snapshot. There is more work ahead to fully adopt our code to more of those changes, like replacing the currently used [guichan library](https://code.google.com/p/guichan/) with its FIFE-maintained improved fork [fifechan](https://github.com/fifengine/fifechan). Look forward to advanced text styling, many new cool widgets (e.g. for in-game statistics) and full UTF-8 support!
+
+## Downloads
+Enough with the paperwork - [Get Unknown Horizons 2014.1](https://www.unknown-horizons.org/downloads/), have fun and [let us know what you think](https://www.unknown-horizons.org/forum/)!
+If you spot a bug or notice odd behavior with the new release, please let us know at our bug tracker [http://bugs.unknown-horizons.org](http://web.archive.org/web/20170408075755/http://bugs.unknown-horizons.org/).
+
+## Get Involved
+Interested in helping with the development of Unknown Horizons? Great, we are looking for help in all areas and could use every available hand. Everyone can help, especially you! Check out our [Get Involved](https://www.unknown-horizons.org/get-involved/) page and get in touch!
+
+Your [Unknown Horizons Team](https://github.com/unknown-horizons/unknown-horizons/blob/master/doc/AUTHORS.md)

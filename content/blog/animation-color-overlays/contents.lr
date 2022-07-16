@@ -1,0 +1,28 @@
+title: Animation and color overlays
+---
+pub_date: 2013-06-14
+---
+author: Chris Oelmueller
+---
+body:
+
+Heya!<br>
+Time for a short preview of some under-construction features developed with a not yet released version of our engine: FIFE added support for two techniques that allow changing how graphics are displayed dynamically, and we're testing both in Unknown Horizons.
+
+### Color overlays
+This one means we are able to use your player colors more prominently in-game, for instance with military units or important buildings of your settlement. Color overlays work like this: Base image + image defining colored areas + color (red) =
+
+<img src="http://web.archive.org/web/20150921164623im_/http://www.unknown-horizons.org/uploads/images/blog_posts/2013_4-tower-overlay.png" width="245">
+
+### Animation overlays
+Displaying animations on top of other graphics! Our current test case is adding "resource" graphics to production buildings depending on their inventory. Imagine this render of our lumberjack in tier Pioneers, but the amount of logs (on the left) and the amount of boards change visibly over time in-game.
+
+Daniel rendered lots of test images for the lumberjack which means that despite still being in early alpha stages, there are some cool results to show already:
+
+<img src="http://web.archive.org/web/20150921164623im_/http://www.unknown-horizons.org/uploads/images/blog_posts/anim_overlay_boards.png" width="500">
+
+<img src="http://web.archive.org/web/20150921164623im_/http://www.unknown-horizons.org/uploads/images/blog_posts/anim_overlay_logs.png" width="500">
+
+As for when to expect these features to be ready: not very soon. We recently committed to not depend on FIFE releases that heavily anymore, and we cannot ship it while running on their current 0.3.x branch. Hope you are excited about the new possibilities nonetheless - I certainly am!
+
+Your *Unknown Horizons* Team

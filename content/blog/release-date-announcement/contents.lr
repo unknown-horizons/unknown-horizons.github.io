@@ -1,0 +1,20 @@
+title: Release Date Announcement
+---
+pub_date: 2010-09-14
+---
+author: Nihathrael
+---
+body:
+
+Hello everyone,
+we are proud to announce the upcoming release of **Unknown Horizons Version 2010.1**. The release date is the **17th September 2010**.
+
+## Translations
+If you would like to help with the translation of Unknown Horizons into your native language please visit our Pootle server: [http://pootle.unknown-horizons.org/](http://web.archive.org/web/20120524083350/http://pootle.unknown-horizons.org/)<br>
+Translations submitted until 16th September 23:59PM GMT+1 will be included in the release.
+
+## Testing
+Should you be using the GIT version of Unknown Horizons please update your checkout and start playing. Should you encounter any crashes please report those at [http://trac.unknown-horizons.org](http://web.archive.org/web/20120524083350/http://trac.unknown-horizons.org/) or visit our [IRC channel](http://web.archive.org/web/20120524083350/http://www.unknown-horizons.org/support/irc/). We will then try to fix those problem until the release.
+
+Stay tuned,<br>
+Nihathrael

@@ -1,0 +1,49 @@
+title: Unknown Horizons 2010.1 Release
+---
+pub_date: 2010-09-17
+---
+author: Nihathrael
+---
+body:
+
+Hi everyone,<br>
+today we proudly announce our latest release: **Unknown-Horizons 2010.1**!
+
+Here's what's new with **Unknown Horizons 2010.1**:
+
+* Multi-player mode
+* All new and shiny tutorial that shows you how to play
+* A new song
+* New buildings
+* New graphics
+* Performance tuning
+* Tons of bug fixes and polishing
+
+Check out the complete [changelog here](http://web.archive.org/web/20160330061156/http://trac.unknown-horizons.org/t/browser/doc/CHANGELOG?rev=7ba80076bdfffaa25bc818f67f29dfc658850d05).
+
+## Multiplayer
+Our biggest feature is the new multi-player mode. It allows you to play with **Unknown Horizons** players from around the globe. Please be aware that the new multi-player mode is still quite unstable. If you are having trouble connecting to the other players, please visit our [IRC](http://web.archive.org/web/20160330061156/http://www.unknown-horizons.org/support/irc/) channel. We will then try to find a solution and  document it.
+
+## Tutorial
+Our new tutorial is quite long and goes into a lot of details of the game. It is especially interesting for new players but even players of the former **Unknown Horizons** versions will find new information in the tutorial. We have created a framework on which we hope to create a campaign some time in the future. The main tutorial writer eoc has made a big effort in bringing you this nice scenario, so be sure to take a look!
+
+## Performance
+Performance has been a big issue for **Unknown Horizons** since the beginning. The FIFE team worked very hard to speed up the rendering. The Result is a FPS rate which is 50-100% faster for most players. Of course we at **Unknown Horizons** also optimized our code in the hope for a more responsive game and improved a lot of core algorithms. We are not where we want to be, but we're getting there.
+
+## Translations
+A lot of work has been put into the translation of **Unknown Horizons**. We are happy to present full translations into: German, French, Italian, Norwegian and Estonian. Plus some translations in good progress: Polish, Portuguese and Spanish. We can also present a full translation of the tutorial in German thanks to ottk3, who translated it within a day. If you would like to help with the translation of **Unknown Horizons** into your native language, be sure to checkout our [Pootle server](http://web.archive.org/web/20160330061156/http://pootle.unknown-horizons.org/).
+
+## Help Wanted
+We are looking for help in all areas, but we have a special need for new graphics. We need graphics for new buildings to allow us to implement further settler levels. All help is welcome, no matter if you want to help with game design, translations, graphics or programming. If you like **Unknown Horizons** and want to help with the development be sure to join our [IRC Channel](http://web.archive.org/web/20160330061156/http://www.unknown-horizons.org/support/irc/) or leave us a message on the [forums](http://web.archive.org/web/20160330061156/http://www.unknown-horizons.org/forum-2/).
+
+## Download it!
+You can find all of the new downloads in the [Downloads](https://www.unknown-horizons.org/downloads/) section of the website.
+The [Windows](https://www.unknown-horizons.org/downloads/) setup now comes bundled with an embedded python tailored for **Unknown Horizons** so there is no more need to have a full distribution of python installed on your computer. ***If you have an old version of Unknown Horizons installed please uninstall it prior to installing the new version!***<br>
+Linux packages for Ubuntu and Debian can be found in [our repositories](http://web.archive.org/web/20160330061156/http://www.unknown-horizons.org/download/linux/). Archlinux users can use the [package in the AUR](http://web.archive.org/web/20160330061156/http://aur.archlinux.org/packages.php?ID=40274). A Gentoo overlay can be found using *"layman -a unknown-horizons"*.
+
+## Enjoy!
+We hope you enjoy this release of **Unknown Horizons**. If you need support or want to leave us some feedback (please do!) contact us on [IRC](http://web.archive.org/web/20160330061156/http://www.unknown-horizons.org/support/irc/), [the forums](http://web.archive.org/web/20160330061156/http://www.unknown-horizons.org/forum-2/) or via e-mail ([team@unknown-horizons.org](mailto:team@unknown-horizons.org)).  
+If you like playing the game please consider donating to the project, so that we can pay the servers and continue development. It also serves as a great motivation to all developers :-).
+
+Enjoy,<br>
+The **Unknown Horizons Team**
