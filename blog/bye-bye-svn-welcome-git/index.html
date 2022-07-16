@@ -3,7 +3,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico">
-<title>Welcome to Unknown Horizons! — UnknownHorizons</title>
+<title>Bye Bye SVN! Welcome Git!! — UnknownHorizons</title>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB+Garamond">
@@ -26,7 +26,7 @@
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
           
-            <li><a href="/blog/">Blog</a></li>
+            <li class="active"><a href="/blog/">Blog</a></li>
           
             <li><a href="/media/">Media</a></li>
           
@@ -44,65 +44,49 @@
   </nav>
 
   
-  <div class="jumbotron homepage-jumbotron">
-    <div class="container text-center">
-      <img class="logo" src="/static/logo.svg" />
-      <img class="screenshot" src="/static/homepage-screenshot.png" />
-      <div class="text">
-        <p class="lead">
-          A 2D realtime strategy simulation with an emphasis on economy and city building. Expand
-          your small settlement to a strong and wealthy colony, collect taxes and supply your
-          inhabitants with valuable goods. Increase your power with a well balanced economy and with
-          strategic trade and diplomacy.
-        </p>
-        <a class="btn btn-success btn-lg" href="/downloads/">Download</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="open-source text-center">
-    <div class="container">
-      <h2>Open Source</h2>
-      <p>
-        The code is available under the <b>GPL v2</b> and the content is mostly licenced as <b>CC-BY-SA</b>. Written in Python using FIFE.
-      </p>
-      <p>We are working on a port of Unknown Horizons to the Godot Engine.</p>
-      <div>
-        <p>
-        <iframe src="https://ghbtns.com/github-btn.html?user=unknown-horizons&repo=unknown-horizons&type=star&count=true" frameborder="0" scrolling="0" width="9%" height="20" title="GitHub"></iframe>
-        </p>
-      </div>
-    </div>
-  </div>
+  <style>
+    ul, ol {
+        list-style-image: url('/static/bullet.png');
+        list-style-position: inside;
+        padding-left: 2px;
+    }
+    /*img {
+        border: 1px solid grey;
+        border-radius: 4px;
+    }
+    img:hover {
+        box-shadow: 0 0 2px 1px black;
+    }*/
+  </style>
 
   <div class="container">
-    <div class="row homepage-main-points">
-      <div class="col-lg-4">
-        <h2>Support</h2>
-        <p>
-          Need help running <em>Unknown Horizons</em>? Read our <a href="https://github.com/unknown-horizons/unknown-horizons/wiki/FAQ">FAQ</a>, the most common questions are answered there. Need further help? Join us on <a href="https://discord.gg/VX6m2ZX/">Discord</a>.
-        </p>
-        <a href="/support/">Read more</a>
-      </div>
-      <div class="col-lg-4">
-        <h2>Get Involved</h2>
-        <p>
-          We appreciate any help in contributing to the <em>Unknown Horizons</em> project. There are various areas one can work on: graphics, programming, game design, community management...
-        </p>
-        <a href="/get-involved/">Read more</a>
-      </div>
-      <div class="col-lg-4">
-        
+    
+  <div class="blog-post">
+  
+    <h2>Bye Bye SVN! Welcome Git!!</h2>
+  
+  <p class="meta">
+    written by
+    
+      GreyGhost
+    
+    on 2010-08-29
+  </p>
+  
+    <p>Finally we have completed the shift from SVN to Git.</p>
+<p>For those who are unaware of Git, it's a revision control system like SVN but with many advantages over SVN. For more information visit the <a href="https://git-scm.com/">Official Website</a> and their <a href="https://en.wikipedia.org/wiki/Git_%28software%29">Wikipedia article</a>.</p>
+<p>The Unknown Horizons Git repository is hosted at GitHub. For more details head over to:</p>
+<p><a href="https://github.com/unknown-horizons/">Link to project at GitHub</a>: <code>https://github.com/unknown-horizons/</code></p>
+<p>For more information on getting started with Git, head over to the github help pages here:</p>
+<p><a href="https://help.github.com/">GitHub Help Pages</a>: <code>https://help.github.com/</code></p>
+<p>You will NOT need to create an account at GitHub or setup SSH with Git to simply clone the repository.</p>
+<p>For any further help or questions please visit us in our irc channel.</p>
+<p>Regards,<br>
+The Unknown Horizons Team.</p>
 
-        <h2>News</h2>
-        <p>
-          Some screenshots from the godot 3d engine port: The Unknown Horizons Team
-        </p>
-        <p>
-          <a href="/blog/godot3d-engine-port-screenshots">Read more</a>
-        </p>
-      </div>
-    </div>
+  
+  </div>
+
   </div>
 
 

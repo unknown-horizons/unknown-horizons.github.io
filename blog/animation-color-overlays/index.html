@@ -3,7 +3,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico">
-<title>Welcome to Unknown Horizons! — UnknownHorizons</title>
+<title>Animation and color overlays — UnknownHorizons</title>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB+Garamond">
@@ -26,7 +26,7 @@
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
           
-            <li><a href="/blog/">Blog</a></li>
+            <li class="active"><a href="/blog/">Blog</a></li>
           
             <li><a href="/media/">Media</a></li>
           
@@ -44,65 +44,51 @@
   </nav>
 
   
-  <div class="jumbotron homepage-jumbotron">
-    <div class="container text-center">
-      <img class="logo" src="/static/logo.svg" />
-      <img class="screenshot" src="/static/homepage-screenshot.png" />
-      <div class="text">
-        <p class="lead">
-          A 2D realtime strategy simulation with an emphasis on economy and city building. Expand
-          your small settlement to a strong and wealthy colony, collect taxes and supply your
-          inhabitants with valuable goods. Increase your power with a well balanced economy and with
-          strategic trade and diplomacy.
-        </p>
-        <a class="btn btn-success btn-lg" href="/downloads/">Download</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="open-source text-center">
-    <div class="container">
-      <h2>Open Source</h2>
-      <p>
-        The code is available under the <b>GPL v2</b> and the content is mostly licenced as <b>CC-BY-SA</b>. Written in Python using FIFE.
-      </p>
-      <p>We are working on a port of Unknown Horizons to the Godot Engine.</p>
-      <div>
-        <p>
-        <iframe src="https://ghbtns.com/github-btn.html?user=unknown-horizons&repo=unknown-horizons&type=star&count=true" frameborder="0" scrolling="0" width="9%" height="20" title="GitHub"></iframe>
-        </p>
-      </div>
-    </div>
-  </div>
+  <style>
+    ul, ol {
+        list-style-image: url('/static/bullet.png');
+        list-style-position: inside;
+        padding-left: 2px;
+    }
+    /*img {
+        border: 1px solid grey;
+        border-radius: 4px;
+    }
+    img:hover {
+        box-shadow: 0 0 2px 1px black;
+    }*/
+  </style>
 
   <div class="container">
-    <div class="row homepage-main-points">
-      <div class="col-lg-4">
-        <h2>Support</h2>
-        <p>
-          Need help running <em>Unknown Horizons</em>? Read our <a href="https://github.com/unknown-horizons/unknown-horizons/wiki/FAQ">FAQ</a>, the most common questions are answered there. Need further help? Join us on <a href="https://discord.gg/VX6m2ZX/">Discord</a>.
-        </p>
-        <a href="/support/">Read more</a>
-      </div>
-      <div class="col-lg-4">
-        <h2>Get Involved</h2>
-        <p>
-          We appreciate any help in contributing to the <em>Unknown Horizons</em> project. There are various areas one can work on: graphics, programming, game design, community management...
-        </p>
-        <a href="/get-involved/">Read more</a>
-      </div>
-      <div class="col-lg-4">
-        
+    
+  <div class="blog-post">
+  
+    <h2>Animation and color overlays</h2>
+  
+  <p class="meta">
+    written by
+    
+      Chris Oelmueller
+    
+    on 2013-06-14
+  </p>
+  
+    <p>Heya!<br>
+Time for a short preview of some under-construction features developed with a not yet released version of our engine: FIFE added support for two techniques that allow changing how graphics are displayed dynamically, and we're testing both in Unknown Horizons.</p>
+<h3>Color overlays</h3>
+<p>This one means we are able to use your player colors more prominently in-game, for instance with military units or important buildings of your settlement. Color overlays work like this: Base image + image defining colored areas + color (red) =</p>
+<p><img src="http://web.archive.org/web/20150921164623im_/http://www.unknown-horizons.org/uploads/images/blog_posts/2013_4-tower-overlay.png" width="245"></p>
+<h3>Animation overlays</h3>
+<p>Displaying animations on top of other graphics! Our current test case is adding "resource" graphics to production buildings depending on their inventory. Imagine this render of our lumberjack in tier Pioneers, but the amount of logs (on the left) and the amount of boards change visibly over time in-game.</p>
+<p>Daniel rendered lots of test images for the lumberjack which means that despite still being in early alpha stages, there are some cool results to show already:</p>
+<p><img src="http://web.archive.org/web/20150921164623im_/http://www.unknown-horizons.org/uploads/images/blog_posts/anim_overlay_boards.png" width="500"></p>
+<p><img src="http://web.archive.org/web/20150921164623im_/http://www.unknown-horizons.org/uploads/images/blog_posts/anim_overlay_logs.png" width="500"></p>
+<p>As for when to expect these features to be ready: not very soon. We recently committed to not depend on FIFE releases that heavily anymore, and we cannot ship it while running on their current 0.3.x branch. Hope you are excited about the new possibilities nonetheless - I certainly am!</p>
+<p>Your <em>Unknown Horizons</em> Team</p>
 
-        <h2>News</h2>
-        <p>
-          Some screenshots from the godot 3d engine port: The Unknown Horizons Team
-        </p>
-        <p>
-          <a href="/blog/godot3d-engine-port-screenshots">Read more</a>
-        </p>
-      </div>
-    </div>
+  
+  </div>
+
   </div>
 
 

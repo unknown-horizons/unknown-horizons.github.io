@@ -3,7 +3,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico">
-<title>Welcome to Unknown Horizons! — UnknownHorizons</title>
+<title>Short Development Update — UnknownHorizons</title>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB+Garamond">
@@ -26,7 +26,7 @@
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
           
-            <li><a href="/blog/">Blog</a></li>
+            <li class="active"><a href="/blog/">Blog</a></li>
           
             <li><a href="/media/">Media</a></li>
           
@@ -44,65 +44,56 @@
   </nav>
 
   
-  <div class="jumbotron homepage-jumbotron">
-    <div class="container text-center">
-      <img class="logo" src="/static/logo.svg" />
-      <img class="screenshot" src="/static/homepage-screenshot.png" />
-      <div class="text">
-        <p class="lead">
-          A 2D realtime strategy simulation with an emphasis on economy and city building. Expand
-          your small settlement to a strong and wealthy colony, collect taxes and supply your
-          inhabitants with valuable goods. Increase your power with a well balanced economy and with
-          strategic trade and diplomacy.
-        </p>
-        <a class="btn btn-success btn-lg" href="/downloads/">Download</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="open-source text-center">
-    <div class="container">
-      <h2>Open Source</h2>
-      <p>
-        The code is available under the <b>GPL v2</b> and the content is mostly licenced as <b>CC-BY-SA</b>. Written in Python using FIFE.
-      </p>
-      <p>We are working on a port of Unknown Horizons to the Godot Engine.</p>
-      <div>
-        <p>
-        <iframe src="https://ghbtns.com/github-btn.html?user=unknown-horizons&repo=unknown-horizons&type=star&count=true" frameborder="0" scrolling="0" width="9%" height="20" title="GitHub"></iframe>
-        </p>
-      </div>
-    </div>
-  </div>
+  <style>
+    ul, ol {
+        list-style-image: url('/static/bullet.png');
+        list-style-position: inside;
+        padding-left: 2px;
+    }
+    /*img {
+        border: 1px solid grey;
+        border-radius: 4px;
+    }
+    img:hover {
+        box-shadow: 0 0 2px 1px black;
+    }*/
+  </style>
 
   <div class="container">
-    <div class="row homepage-main-points">
-      <div class="col-lg-4">
-        <h2>Support</h2>
-        <p>
-          Need help running <em>Unknown Horizons</em>? Read our <a href="https://github.com/unknown-horizons/unknown-horizons/wiki/FAQ">FAQ</a>, the most common questions are answered there. Need further help? Join us on <a href="https://discord.gg/VX6m2ZX/">Discord</a>.
-        </p>
-        <a href="/support/">Read more</a>
-      </div>
-      <div class="col-lg-4">
-        <h2>Get Involved</h2>
-        <p>
-          We appreciate any help in contributing to the <em>Unknown Horizons</em> project. There are various areas one can work on: graphics, programming, game design, community management...
-        </p>
-        <a href="/get-involved/">Read more</a>
-      </div>
-      <div class="col-lg-4">
-        
+    
+  <div class="blog-post">
+  
+    <h2>Short Development Update</h2>
+  
+  <p class="meta">
+    written by
+    
+      stubb
+    
+    on 2012-03-11
+  </p>
+  
+    <p>Hi everyone!<br>
+This is a short status update for Unknown Horizons. We just finished our meeting and would like to keep you posted with our newest developments:</p>
+<ul>
+<li>Increased range of the signal fire (totycro)</li>
+<li>Only allow fire disasters on pioneer increment and above (totycro)</li>
+<li>Logging can now be controlled via GUI as setting (totycro)</li>
+<li>Removed all TooltipWidgets, tooltips for a regular widget are now set from the helptext attribute (totycro)</li>
+<li>The logbook now allows displaying images and arbitrary content in general (chrisoelmueller)</li>
+<li>Also converted The_Unknown and tutorial_en to new scenario-syntax, added images to the tutorial (chrisoelmueller)</li>
+<li>We are working on a FrameLimit (FPS) setting (nihathrael)</li>
+<li>A lot of bugfixing (everyone)</li>
+</ul>
+<p>We would like to thank all the players participating in the multiplayer gaming session yesterday, organized by wentam. It was a great opportunity to get feedback and bugreports. We're definitely planning to repeat this kind of event soon, check this blog for updates!</p>
+<p>Another important event was the game design meeting earlier this sunday. We discussed a system in which certain buildings have influence on the appeal of nearby environment tiles, which might be used as requirement to upgrade into later residential tiers. Another idea everybody agreed on was that we want to implement a kind of "main square extension" building. It has the same size as a regular tent/hut/house and provides the same services as the main square does, but needs to have a main square in range on its own to work. We received a lot of feedback about the large main square and hope that the extension helps you improve your settlement layout :-)</p>
+<p>If you're interested in the full meeting logs, you can browse them here. The list of accepted organizations for this year's Summer of Code will get published on March 16th. We're looking forward to the decision on whether we got accepted! Check our ideas page if you are interested in the possible projects this summer!</p>
+<p>Stay tuned and have a nice week,<br>
+Your <strong>Unknown Horizons Team</strong>.</p>
 
-        <h2>News</h2>
-        <p>
-          Some screenshots from the godot 3d engine port: The Unknown Horizons Team
-        </p>
-        <p>
-          <a href="/blog/godot3d-engine-port-screenshots">Read more</a>
-        </p>
-      </div>
-    </div>
+  
+  </div>
+
   </div>
 
 

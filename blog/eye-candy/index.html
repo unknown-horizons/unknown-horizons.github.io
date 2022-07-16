@@ -3,7 +3,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico">
-<title>Welcome to Unknown Horizons! — UnknownHorizons</title>
+<title>Eye Candy! — UnknownHorizons</title>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB+Garamond">
@@ -26,7 +26,7 @@
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
           
-            <li><a href="/blog/">Blog</a></li>
+            <li class="active"><a href="/blog/">Blog</a></li>
           
             <li><a href="/media/">Media</a></li>
           
@@ -44,65 +44,51 @@
   </nav>
 
   
-  <div class="jumbotron homepage-jumbotron">
-    <div class="container text-center">
-      <img class="logo" src="/static/logo.svg" />
-      <img class="screenshot" src="/static/homepage-screenshot.png" />
-      <div class="text">
-        <p class="lead">
-          A 2D realtime strategy simulation with an emphasis on economy and city building. Expand
-          your small settlement to a strong and wealthy colony, collect taxes and supply your
-          inhabitants with valuable goods. Increase your power with a well balanced economy and with
-          strategic trade and diplomacy.
-        </p>
-        <a class="btn btn-success btn-lg" href="/downloads/">Download</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="open-source text-center">
-    <div class="container">
-      <h2>Open Source</h2>
-      <p>
-        The code is available under the <b>GPL v2</b> and the content is mostly licenced as <b>CC-BY-SA</b>. Written in Python using FIFE.
-      </p>
-      <p>We are working on a port of Unknown Horizons to the Godot Engine.</p>
-      <div>
-        <p>
-        <iframe src="https://ghbtns.com/github-btn.html?user=unknown-horizons&repo=unknown-horizons&type=star&count=true" frameborder="0" scrolling="0" width="9%" height="20" title="GitHub"></iframe>
-        </p>
-      </div>
-    </div>
-  </div>
+  <style>
+    ul, ol {
+        list-style-image: url('/static/bullet.png');
+        list-style-position: inside;
+        padding-left: 2px;
+    }
+    /*img {
+        border: 1px solid grey;
+        border-radius: 4px;
+    }
+    img:hover {
+        box-shadow: 0 0 2px 1px black;
+    }*/
+  </style>
 
   <div class="container">
-    <div class="row homepage-main-points">
-      <div class="col-lg-4">
-        <h2>Support</h2>
-        <p>
-          Need help running <em>Unknown Horizons</em>? Read our <a href="https://github.com/unknown-horizons/unknown-horizons/wiki/FAQ">FAQ</a>, the most common questions are answered there. Need further help? Join us on <a href="https://discord.gg/VX6m2ZX/">Discord</a>.
-        </p>
-        <a href="/support/">Read more</a>
-      </div>
-      <div class="col-lg-4">
-        <h2>Get Involved</h2>
-        <p>
-          We appreciate any help in contributing to the <em>Unknown Horizons</em> project. There are various areas one can work on: graphics, programming, game design, community management...
-        </p>
-        <a href="/get-involved/">Read more</a>
-      </div>
-      <div class="col-lg-4">
-        
+    
+  <div class="blog-post">
+  
+    <h2>Eye Candy!</h2>
+  
+  <p class="meta">
+    written by
+    
+      UnknownScribe
+    
+    on 2014-03-13
+  </p>
+  
+    <h2>Building Bliss</h2>
+<p>This month Kilian implemented the code for a new building in the Settler's tier, the weaponsmith, allowing the player to manufacture swords from iron and charcoal! This building will eventually become the prerequisite to arm your troops for battle. UnknownScribe created the neat new graphics for this building.</p>
+<p><img src="http://web.archive.org/web/20170407122929im_/http://up.unknown-horizons.org/f/?a=v&id=631&n=weaponsmith.png" alt="Weaponsmith graphics" width="200"/></p>
+<p>UnknownScribe also added some wear and tear to the warehouse and barracks of the same tier as they seemed a bit too shiny for our liking!</p>
+<p><img src="http://web.archive.org/web/20170407122929im_/http://up.unknown-horizons.org/f/?a=v&amp;id=632&amp;n=warehouse%2Bbarracks.png" alt="Revised warehouse and barracks graphics"></p>
+<h3>Translations Elation</h3>
+<p>We hit the 50% completion mark for translations this month. A big thank you to everyone who has contributed to our translation progress. We still have a way to go until completion. So keep up the great work! Go to <a href="https://hosted.weblate.org/projects/uh/">weblate translations</a> now!</p>
+<h3>Settlement-range Excitement</h3>
+<p>Nihathrael was working on ChrisOelmueller's settlement-range code to make construction and destruction of the warehouse, storage tent and lookout tower work intuitively. They should now increase the range of the player's settlement when constructed, and decrease it again after destruction.</p>
+<p>Stay tuned for more updates!</p>
+<p>All the best,<br>
+Your Unknown Horizons Team</p>
 
-        <h2>News</h2>
-        <p>
-          Some screenshots from the godot 3d engine port: The Unknown Horizons Team
-        </p>
-        <p>
-          <a href="/blog/godot3d-engine-port-screenshots">Read more</a>
-        </p>
-      </div>
-    </div>
+  
+  </div>
+
   </div>
 
 
