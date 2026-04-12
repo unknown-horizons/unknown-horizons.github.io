@@ -10,8 +10,6 @@ We are working on a [Godot version](https://github.com/unknown-horizons/godot-po
 
 ![Discord](/static/buttons/base_button_discord.png) Get in contact with the team using our [Discord](https://discord.gg/VX6m2ZX) server. This is the main channel for contacting the team.
 
-![IRC](/static/buttons/base_button_irc.png) Get in contact with the team using our IRC channel on `irc://irc.libera.chat/#unknown-horizons` ([Web IRC](https://kiwiirc.com/nextclient/irc.libera.chat/#unknown-horizons)).
-
 ![Forum](/static/buttons/base_button_forums.png) Leave us a message on the [forum](https://forum.freegamedev.net/viewforum.php?f=100).
 
 ![Bug tracker](/static/buttons/base_button_bugs.png) Leave a report at our bug tracker on GitHub for the new [Godot version](https://github.com/unknown-horizons/godot-port/issues) or the legacy [FIFE version](https://github.com/unknown-horizons/unknown-horizons/issues).
